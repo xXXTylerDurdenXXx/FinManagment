@@ -1,0 +1,33 @@
+﻿<Window x:Class="FinManagment.MaceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinManagment"
+        mc:Ignorable="d"
+        Title="MaceWindow" Height="515" Width="800">
+    <DockPanel Background="#05ffa3">
+       
+        <StackPanel DockPanel.Dock="Top" x:Name="Stack" >
+            
+            <WrapPanel  DockPanel.Dock ="Top"  HorizontalAlignment="Left" MinHeight="20">
+                <Button x:Name="butplusDay" Width="30" Height="25" ToolTip="Добавить день покупок" Click="butplusDay_Click">
+                    <Image Source="/Image/plusDay.png"/>
+                </Button>
+                <Button x:Name="butplus" Width="30" Height="25" ToolTip="Добавить лист покупок" Click="butplus_Click" >
+                    <Image Source="/Image/plus.png"/>
+                </Button>
+                <Button x:Name="butplusList" Width="30" Height="25" ToolTip="Добавить день покупок" Click="butplusList_Click" >
+                    <Image Source="/Image/plusDay.png"/>
+                </Button>
+                <Button x:Name="addMoney" Width="30" Height="25" ToolTip="Зарплата" Click="addMoney_Click" >
+                    <Image Source="/Image/curr.png"/>
+                </Button>
+            </WrapPanel>
+            <TextBlock x:Name="strMoney" Text="Бюджет:" HorizontalAlignment="Right"  MinHeight="25" MinWidth="150" FontSize="12" Margin="0,-25,0,0"></TextBlock>
+        </StackPanel>
+        <Frame x:Name="MyFrame" NavigationUIVisibility="Hidden"  >
+           
+        </Frame>
+    </DockPanel>
+</Window>

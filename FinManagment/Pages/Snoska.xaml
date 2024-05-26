@@ -1,0 +1,128 @@
+﻿<Page x:Class="FinManagment.Pages.Snoska"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FinManagment.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="">
+
+    <Grid Height="450" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Название продукта" Foreground="Black" MinWidth="200" Height="40" FontSize="10"   Grid.Column="0" Grid.Row="0" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxName0" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="0" Grid.Row="1"   Background="Gray"></TextBox>
+        <Label Content="Цена продукта" Foreground="Black" MinWidth="200" Height="35" FontSize="10"   Grid.Column="1" Grid.Row="0" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxPrice0" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="1" Grid.Row="1"   Background="Gray"></TextBox>
+        <Label Content="Тип продукта" Foreground="Black" MinWidth="200" FontSize="10" Height="35"  Grid.Column="2" Grid.Row="0" Background="DarkGreen" IsEnabled="False" ></Label>
+        <ComboBox x:Name="ComboBoxType0" Grid.Row="1" Grid.Column="2">
+            <TextBlock>Продукты</TextBlock>
+            <TextBlock>Услуги</TextBlock>
+            <TextBlock>Медицина</TextBlock>
+            <TextBlock>Транспорт</TextBlock>
+            <TextBlock>Отдых</TextBlock>
+            <TextBlock>Фастфуд</TextBlock>
+            <TextBlock>Одежда</TextBlock>
+
+        </ComboBox>
+        <Label Content="Название продукта" Foreground="Black" MinWidth="200" Height="40" FontSize="10"   Grid.Column="0" Grid.Row="2" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxName1" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="0" Grid.Row="3"   Background="Gray"></TextBox>
+        <Label Content="Цена продукта" Foreground="Black" MinWidth="200" Height="35" FontSize="10"   Grid.Column="1" Grid.Row="2" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxPrice1" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="1" Grid.Row="3"   Background="Gray"></TextBox>
+        <Label Content="Тип продукта" Foreground="Black" MinWidth="200" FontSize="10" Height="35"  Grid.Column="2" Grid.Row="2" Background="DarkGreen" IsEnabled="False" ></Label>
+        <ComboBox x:Name="ComboBoxType1" Grid.Row="3" Grid.Column="2">
+            <TextBlock>Продукты</TextBlock>
+            <TextBlock>Услуги</TextBlock>
+            <TextBlock>Медицина</TextBlock>
+            <TextBlock>Транспорт</TextBlock>
+            <TextBlock>Отдых</TextBlock>
+            <TextBlock>Фастфуд</TextBlock>
+            <TextBlock>Одежда</TextBlock>
+
+        </ComboBox>
+        <Label Content="Название продукта" Foreground="Black" MinWidth="200" Height="40" FontSize="10"   Grid.Column="0" Grid.Row="4" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxName2" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="0" Grid.Row="5"   Background="Gray"></TextBox>
+        <Label Content="Цена продукта" Foreground="Black" MinWidth="200" Height="35" FontSize="10"   Grid.Column="1" Grid.Row="4" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxPrice2" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="1" Grid.Row="5"   Background="Gray"></TextBox>
+        <Label Content="Тип продукта" Foreground="Black" MinWidth="200" FontSize="10" Height="35"  Grid.Column="2" Grid.Row="4" Background="DarkGreen" IsEnabled="False" ></Label>
+        <ComboBox x:Name="ComboBoxType2" Grid.Row="5" Grid.Column="2">
+            <TextBlock>Продукты</TextBlock>
+            <TextBlock>Услуги</TextBlock>
+            <TextBlock>Медицина</TextBlock>
+            <TextBlock>Транспорт</TextBlock>
+            <TextBlock>Отдых</TextBlock>
+            <TextBlock>Фастфуд</TextBlock>
+            <TextBlock>Одежда</TextBlock>
+
+        </ComboBox>
+        <Label Content="Название продукта" Foreground="Black" MinWidth="200" Height="40" FontSize="10"   Grid.Column="0" Grid.Row="6" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxName3" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="0" Grid.Row="7"   Background="Gray"></TextBox>
+        <Label Content="Цена продукта" Foreground="Black" MinWidth="200" Height="35" FontSize="10"   Grid.Column="1" Grid.Row="6" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxPrice3" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="1" Grid.Row="7"   Background="Gray"></TextBox>
+        <Label Content="Тип продукта" Foreground="Black" MinWidth="200" FontSize="10" Height="35"  Grid.Column="2" Grid.Row="6" Background="DarkGreen" IsEnabled="False" ></Label>
+        <ComboBox x:Name="ComboBoxType3" Grid.Row="7" Grid.Column="2">
+            <TextBlock>Продукты</TextBlock>
+            <TextBlock>Услуги</TextBlock>
+            <TextBlock>Медицина</TextBlock>
+            <TextBlock>Транспорт</TextBlock>
+            <TextBlock>Отдых</TextBlock>
+            <TextBlock>Фастфуд</TextBlock>
+            <TextBlock>Одежда</TextBlock>
+
+        </ComboBox>
+        <Label Content="Название продукта" Foreground="Black" MinWidth="200" Height="40" FontSize="10"   Grid.Column="0" Grid.Row="8" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxName4" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="0" Grid.Row="9"   Background="Gray"></TextBox>
+        <Label Content="Цена продукта" Foreground="Black" MinWidth="200" Height="35" FontSize="10"   Grid.Column="1" Grid.Row="8" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxPrice4" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="1" Grid.Row="9"   Background="Gray"></TextBox>
+        <Label Content="Тип продукта" Foreground="Black" MinWidth="200" FontSize="10" Height="35"  Grid.Column="2" Grid.Row="8" Background="DarkGreen" IsEnabled="False" ></Label>
+        <ComboBox x:Name="ComboBoxType4" Grid.Row="9" Grid.Column="2">
+            <TextBlock>Продукты</TextBlock>
+            <TextBlock>Услуги</TextBlock>
+            <TextBlock>Медицина</TextBlock>
+            <TextBlock>Транспорт</TextBlock>
+            <TextBlock>Отдых</TextBlock>
+            <TextBlock>Фастфуд</TextBlock>
+            <TextBlock>Одежда</TextBlock>
+
+        </ComboBox>
+        <Label Content="Название продукта" Foreground="Black" MinWidth="200" Height="40" FontSize="10"   Grid.Column="0" Grid.Row="10" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxName5" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="0" Grid.Row="11"   Background="Gray"></TextBox>
+        <Label Content="Цена продукта" Foreground="Black" MinWidth="200" Height="35" FontSize="10"   Grid.Column="1" Grid.Row="10" Background="DarkGreen" IsEnabled="False" ></Label>
+        <TextBox x:Name="TextBoxPrice5" VerticalAlignment="Bottom" MinHeight="40" MinWidth="200" Grid.Column="1" Grid.Row="11"   Background="Gray"></TextBox>
+        <Label Content="Тип продукта" Foreground="Black" MinWidth="200" FontSize="10" Height="35"  Grid.Column="2" Grid.Row="10" Background="DarkGreen" IsEnabled="False" ></Label>
+        <ComboBox x:Name="ComboBoxType5" Grid.Row="11" Grid.Column="2">
+            <TextBlock>Продукты</TextBlock>
+            <TextBlock>Услуги</TextBlock>
+            <TextBlock>Медицина</TextBlock>
+            <TextBlock>Транспорт</TextBlock>
+            <TextBlock>Отдых</TextBlock>
+            <TextBlock>Фастфуд</TextBlock>
+            <TextBlock>Одежда</TextBlock>
+
+        </ComboBox>
+    </Grid>
+   
+</Page>
